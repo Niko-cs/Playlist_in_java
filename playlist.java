@@ -18,7 +18,7 @@ public class playlist {
 
     public void removeSong(String song){
         songs.remove(song);
-        System.out.println("Kenga " + song + " u hoq nga playlist");
+        System.out.println("Kenga " + song + " u hoq nga playlista");
     }
 
     public boolean searchSong(String song){
