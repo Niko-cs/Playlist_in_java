@@ -32,11 +32,9 @@ public class playlist {
     public static void main(String[] args) {
         
         playlist list = new playlist();
-        
-        System.out.println("Cfare doni te beni me listen?");
-        
-        
         Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Cfare kenge doni te shtoni?");
         String song = scanner.nextLine();
 
         
