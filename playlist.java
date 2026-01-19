@@ -25,18 +25,16 @@ public class playlist {
         return songs.contains(song);
     }
 
-    public int getTotalSonggs(){
+    public int getTotalSongs(){
         return songs.size();
     }
 
     public static void main(String[] args) {
         
         playlist list = new playlist();
-        
-        System.out.println("Cfare doni te beni me listen?");
-        
-        
         Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Cfare kenge doni te shtoni?");
         String song = scanner.nextLine();
 
         
@@ -50,7 +48,7 @@ public class playlist {
             System.out.println("Kenga " + song + " nuk eshte ne playlist");
         }
 
-        System.out.println("Playlist ka ne total " + list.getTotalSonggs() + " kenge");
+        System.out.println("Playlist ka ne total " + list.getTotalSongs() + " kenge");
         
         scanner.close();
     }
