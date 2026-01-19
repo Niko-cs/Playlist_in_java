@@ -25,7 +25,7 @@ public class playlist {
         return songs.contains(song);
     }
 
-    public int getTotalSonggs(){
+    public int getTotalSongs(){
         return songs.size();
     }
 
@@ -48,7 +48,7 @@ public class playlist {
             System.out.println("Kenga " + song + " nuk eshte ne playlist");
         }
 
-        System.out.println("Playlist ka ne total " + list.getTotalSonggs() + " kenge");
+        System.out.println("Playlist ka ne total " + list.getTotalSongs() + " kenge");
         
         scanner.close();
     }
